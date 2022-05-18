@@ -1,0 +1,20 @@
+{
+  "name": "twitch-youtube",
+  "version": "1.0.0",
+  "description": "This project is download twitch most viewed clips in 24 hour or 1 week and then try to publish to Youtube channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "twitch",
+    "bot"
+  ],
+  "author": "deeppaz",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-twitch": "^0.4.5"
+  }
+}

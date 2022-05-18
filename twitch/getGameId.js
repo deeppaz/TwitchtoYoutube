@@ -8,11 +8,11 @@ const twitch = new TwitchApi({
 
 
 async function getUserId(loginName) {
-  const users = await twitch.getUsers(loginName);
+  const users = await twitch.getGames(loginName);
   const user = users.data[0];
   const userId = user.id;
 
   console.log(userId);
 }
 
-getUserId("95ZER");
+getUserId("Apex Legends");

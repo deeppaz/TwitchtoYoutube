@@ -3,9 +3,9 @@
 This project is try to download most viewed twitch clips in 24 hours or 1 week and then try to publish to Youtube channel.
 
 ## Features
-
--   [] Download most viewed clips on specific twitch channels
--   [] Filter clips by top 1 week or 24 hours
+-   [x] Get specific twitch channels or specific games
+-   [] Download most viewed clips on specific twitch channels or specific games
+-   [x] Filter clips by top 1 week or 24 hours
 -   [] Try to publish youtube channel as _Shorts_
 -   [] repeat
 
@@ -13,6 +13,7 @@ This project is try to download most viewed twitch clips in 24 hours or 1 week a
 
 - node-twitch
 - youtube-api
+- momentjs
 
 ## LICENCE
 

@@ -1,3 +1,5 @@
 .env
 node_modules
 package-lock.json
+twitch/data.json
+/twitch/data.json

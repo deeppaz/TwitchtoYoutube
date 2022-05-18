@@ -1,0 +1,20 @@
+{
+    "data": [
+       {
+          "id": "clipid",
+          "url": "https://clips.twitch.tv/clipid",
+          "embed_url": "https://clips.twitch.tv/embed?clip=clipid",
+          "broadcaster_id": "123",
+          "broadcaster_name": "shroud",
+          "creator_id": "123",
+          "creator_name": "me",
+          "video_id": "123",
+          "game_id": "123",
+          "language": "en",
+          "title": "My first clip ever",
+          "view_count": 9999999999999999999,
+          "created_at": "2020-06-07T13:43:24Z (RFC3339) ",
+          "thumbnail_url": "https://clips-media-assets2.twitch.tv/123.jpg",
+          "duration": 29.8
+       }
+}

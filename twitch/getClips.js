@@ -9,10 +9,12 @@ const twitch = new TwitchApi({
 });
 
 async function getClips(){
-    var startedAt = moment().startOf('day').format('YYYY-MM-DDTHH:mm:ss[Z]')
-    var endedAt = moment().endOf('day').format('YYYY-MM-DDTHH:mm:ss[Z]')
-    // var startedAt = moment().subtract(1, 'weeks').startOf('week').format('YYYY-MM-DDTHH:mm:ss[Z]')
-    // var endedAt = moment().subtract(1, 'weeks').endOf('week').format('YYYY-MM-DDTHH:mm:ss[Z]')
+    // 24hours
+    // var startedAt = moment().startOf('day').format('YYYY-MM-DDTHH:mm:ss[Z]')
+    // var endedAt = moment().endOf('day').format('YYYY-MM-DDTHH:mm:ss[Z]')
+    // 1weeks
+    var startedAt = moment().subtract(1, 'weeks').startOf('week').format('YYYY-MM-DDTHH:mm:ss[Z]')
+    var endedAt = moment().subtract(1, 'weeks').endOf('week').format('YYYY-MM-DDTHH:mm:ss[Z]')
     console.log(startedAt)
     console.log(endedAt)
     const clips = await twitch.getClips({game_id: "511224", first:100, started_at: startedAt, ended_at: endedAt})

@@ -14,8 +14,10 @@
   "author": "deeppaz",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/local-auth": "^2.0.0",
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
+    "googleapis": "^100.0.0",
     "moment": "^2.29.3",
     "node-twitch": "^0.4.5"
   }

@@ -3,3 +3,4 @@ node_modules
 package-lock.json
 twitch/data.json
 twitch/clips
+youtube/oauth.keys.json

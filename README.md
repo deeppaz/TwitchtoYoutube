@@ -15,6 +15,8 @@ This project is try to download most viewed twitch clips in 24 hours or 1 week a
 - youtube-api
 - momentjs
 - axios
+- googleapis
+- @google-cloud/local-auth
 
 ## LICENCE
 

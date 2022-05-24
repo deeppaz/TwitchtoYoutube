@@ -14,9 +14,11 @@
   "author": "deeppaz",
   "license": "MIT",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google-cloud/local-auth": "^2.0.0",
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
+    "fluent-ffmpeg": "^2.1.2",
     "googleapis": "^100.0.0",
     "moment": "^2.29.3",
     "node-twitch": "^0.4.5"

@@ -15,4 +15,4 @@ async function getUserId(loginName) {
   console.log(userId);
 }
 
-getUserId("95ZER");
+getUserId("aceu");

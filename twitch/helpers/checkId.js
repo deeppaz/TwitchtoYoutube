@@ -3,7 +3,7 @@ const fs = require("fs");
 // const clipID = require("../clipIds.txt")
 
 
-var array = fs.readFileSync('./twitch/clipIds.txt', 'utf8').split('\n');
+var array = fs.readFileSync('../clipIds.txt', 'utf8').split('\n');
 
 const waitFor = (ms) => new Promise(r => setTimeout(r, ms))
 const asyncForEach = async (array, callback) => {

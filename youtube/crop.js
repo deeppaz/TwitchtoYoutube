@@ -23,13 +23,13 @@ var onStart = function(commandLine) {
     console.log('Spawned Ffmpeg with command: ' + commandLine);
 }
 
-var command = ffmpeg('./twitch/clips/test.mp4')
+var command = ffmpeg('../twitch/clips/42062345227-offset-26768.mp4')
     .videoFilters(filter_string)
     .format('mp4')
     .on('error', reject)
     .on('end', resolve)
     .on('start', onStart)
-    .output('./twitch/clips/test_cropped.mp4');
+    .output('../twitch/clips/test_cropped.mp4');
 
 console.log("running..");
 command.run();

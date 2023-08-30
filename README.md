@@ -6,7 +6,7 @@ This project is try to download most viewed twitch clips in 24 hours or 1 week a
 -   [x] Get specific twitch channels or specific games
 -   [x] Download most viewed clips in 1 week on specific twitch channels or specific games
 -   [x] Filter clips by top 1 week or 24 hours
--   [x] Try to publish youtube channel as _Shorts_
+-   [x] Publish clip to YouTube channel as _Shorts_
 -   [] repeat (soon)
 
 ## Credits
